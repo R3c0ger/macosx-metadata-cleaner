@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import shutil
 from tkinter import messagebox, Tk
 
 
@@ -25,7 +26,7 @@ def delete_macos_files(directory):
         for d in dirs:
             if d == '__MACOSX':
                 dir_path = os.path.join(root, d)
-                os.rmdir(dir_path)
+                shutil.rmtree(dir_path)
                 deleted_files.append(dir_path)
     return deleted_files
 
