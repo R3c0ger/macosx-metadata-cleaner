@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-    English | <a href="README_zh_cn.md">中文</a>
+    English | <a href="README_zh-CN.md">中文</a>
 </p>
 
 ## Description
